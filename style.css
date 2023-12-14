@@ -1,9 +1,11 @@
 #container{
+    margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    justify-content: center;
 }
 
-.gridItem{
-    box-sizing: border-box;
+.gridItems{
+    height: 50px;
+    width: 50px;
 }

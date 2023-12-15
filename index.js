@@ -22,3 +22,10 @@ function newGrid(){
         });
     }
 }
+
+function erase(){
+    let gridItems = document.querySelectorAll('.gridItems');
+    gridItems.forEach(item => {  
+        item.style.backgroundColor = '';
+    });
+}

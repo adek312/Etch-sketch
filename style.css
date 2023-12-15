@@ -1,3 +1,8 @@
+body{
+    margin: 0;
+    overflow: hidden;
+}
+
 #container{
     margin-top: 50px;
     display: flex;
@@ -6,6 +11,9 @@
 }
 
 .gridItems{
-    height: 50px;
-    width: 50px;
+    height: 25px;
+    width: 25px;
+    border: 1px solid #ccc;
+    transition: background-color 0.1s;
 }
+
